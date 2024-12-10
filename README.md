@@ -1,8 +1,15 @@
-# React + Vite
+** This md file will be updated occasionally **
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+** This is a side project WebApp utilizing react.js + vite. **
 
-Currently, two official plugins are available:
+** React.js (ver. >= 18) and vite (ver. >= 6). This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. **
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+to run locally:
+
+- clone the repo then run npm install
+- run in terminal: npm run dev
+
+Dev logs:
+
+- used fetch api via async-await for simple communication with backend/any-api. e.g. http requests like GET, POST, PUT, DELETE.
+- used public api from themoviedb for this side project. DOCS: (https://developer.themoviedb.org/docs/getting-started)
