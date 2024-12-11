@@ -11,5 +11,12 @@ to run locally:
 
 Dev logs:
 
+Libraries:
+
 - used fetch api via async-await for simple communication with backend/any-api. e.g. http requests like GET, POST, PUT, DELETE.
 - used public api from themoviedb for this side project. DOCS: (https://developer.themoviedb.org/docs/getting-started)
+- used lodash library for handling arrays
+
+Plugins:
+
+- use vite-plugin-svgr ver.4x plugin for transforming SVGs to React Component in Vite
