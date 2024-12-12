@@ -2,14 +2,13 @@ import React from 'react';
 
 import './MovieCard.css';
 import Star from '../../assets/glowing-star.png';
+import { Link } from 'react-router-dom';
 
 const MovieCard = ({ movie }) => {
   return (
-    <a
-      href={`
-        https://www.themoviedb.org/movie/${movie.id}
+    <Link
+      to={`/movie/${movie.id}
     `}
-      target='_blank'
       className='movie_card'
     >
       <img
@@ -32,7 +31,7 @@ const MovieCard = ({ movie }) => {
           {movie.overview.slice(0, 100) + '...'}
         </p>
       </div>
-    </a>
+    </Link>
   );
 };
 

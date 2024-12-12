@@ -16,6 +16,7 @@ Libraries:
 - used fetch api via async-await for simple communication with backend/any-api. e.g. http requests like GET, POST, PUT, DELETE.
 - used public api from themoviedb for this side project. DOCS: (https://developer.themoviedb.org/docs/getting-started)
 - used lodash library for handling arrays
+- used react-router-dom ver. 6.11.1 for react routing
 
 Plugins:
 
