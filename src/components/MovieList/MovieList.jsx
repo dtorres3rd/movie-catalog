@@ -14,11 +14,17 @@ const MovieList = ({ type, title, emoji }) => {
     order: 'asc',
   });
 
-  // no dependency, so callback function will run when component is re-rendered
+  // // no dependency, so callback function will run when component is re-rendered
+  // useEffect(() => {
+  //   //logic for calling api
+  //   fetchMovies();
+  // }, []);
+
+  // dependency is from type property, any changes from type property will run this callback function
   useEffect(() => {
     //logic for calling api
     fetchMovies();
-  }, []);
+  }, [type]);
 
   // dependency is from sort property, any changes from sort will run this callback function
   useEffect(() => {
